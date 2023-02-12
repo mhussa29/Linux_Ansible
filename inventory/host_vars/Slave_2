@@ -1,0 +1,8 @@
+---
+
+anslible_ssh_user: ubuntu
+ansible_ssh_private_key_file: ~/.ssh/Ubuntu_slave.pem
+ansible_become_user: root
+ansible_become: true
+ansible_ssh_host: 18.189.7.187
+ansible_python_interpreter: /usr/bin/python3
